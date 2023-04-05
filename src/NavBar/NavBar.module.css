@@ -1,0 +1,35 @@
+.homeLink{
+    
+    padding: 5px 30px !important;
+    font-size: 18px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #009ad8;
+}
+
+.homeLink:hover{
+    color:#009ad8;
+}
+.contactLink{
+    border:1px solid transparent;
+    padding: 5px 30px !important;
+    font-size: 18px;
+    color: white;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.contactLink:hover{
+   border-color: #009ad8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #009ad8 !important;
+}

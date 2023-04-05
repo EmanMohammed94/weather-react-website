@@ -1,0 +1,119 @@
+.homeContainer{
+    height: 100vh;
+    position: relative;
+}
+
+
+.imgContainer{
+    height: 50%;
+    background-image: url('./images/banner.png');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.blackBgContainer{
+    height: 66vh;
+    background-color: black;
+}
+.homeContent{
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    top: 16px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    align-items: center;
+}
+.searchContent{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 154, 216);
+    padding: 5px 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.searchContent:hover {
+    border: 1px solid rgb(0, 154, 216);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.searchContent input{
+   outline: none;
+   border: none !important;
+
+   color: white;
+   background-color: transparent;
+}
+.searchContent input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.title{
+    background-color: #262936;
+    padding: 10px 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+   
+}
+.firstDaycol{
+    color: #bfc1c8;
+    background-color: #323544;
+ height: 100%;
+color: gray;
+}
+
+.firstDayTitle{
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.1);
+padding: 10px;}
+
+.otherDaycol{
+    color: #bfc1c8;
+    background-color: #262936;
+color: gray;
+height: 100%;
+}
+@media screen and (max-width:600px) {
+    .homeContent{
+top: 0;
+    }
+    .blackBgContainer{
+        height: 100vh;
+    }
+    
+    
+}
+@media screen and (min-width:600px) and (max-width:992px) {
+    .homeContent{
+top: 450px ;
+
+    }
+    .blackBgContainer{
+        height: 40vh;
+    }
+    
+    
+}
+@media screen and (min-width:992px)  {
+    .homeContent{
+top: 20px ;
+
+    }
+    .blackBgContainer{
+        height: 70vh;
+    }
+    
+    
+}
